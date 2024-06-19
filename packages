@@ -1,0 +1,11 @@
+# Core packages
+npm install react-router-dom redux react-redux axios react-hook-form formik yup styled-components @mui/material @emotion/react @emotion/styled
+
+# Utility libraries
+npm install lodash moment classnames
+
+# Development tools
+npm install eslint prettier @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli webpack-dev-server --save-dev
+
+# Testing libraries
+npm install jest @testing-library/react @testing-library/jest-dom --save-dev
