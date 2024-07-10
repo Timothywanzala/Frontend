@@ -59,10 +59,6 @@ export default function UserTableRow({
           </Stack>
         </TableCell>
 
-  
-
-  
-
         <TableCell>
           <Label color={(status === 'Not Read' && 'error') || 'success'}>{status}</Label>
         </TableCell>
@@ -99,8 +95,8 @@ export default function UserTableRow({
 }
 
 UserTableRow.propTypes = {
-  // avatarUrl: PropTypes.any,
+  selected: PropTypes.bool.isRequired,
   handleClick: PropTypes.func,
-  name: PropTypes.any,
-  status: PropTypes.string,
+  name: PropTypes.string.isRequired,
+  status: PropTypes.string.isRequired,
 };

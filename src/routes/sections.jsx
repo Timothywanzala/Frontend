@@ -12,6 +12,7 @@ export const ProfilePage = lazy(() => import('src/pages/profile'));
 export const NotificationPage = lazy(() => import('src/pages/notifications'));
 export const RegisterPage = lazy(() => import('src/pages/registration'));
 export const ReportPage = lazy(() => import('src/pages/report'));
+export const RegisterEventPage = lazy(() => import('src/pages/register'));
 
 // ----------------------------------------------------------------------
 
@@ -35,6 +36,7 @@ export default function Router() {
         { path: 'notification', element: <NotificationPage /> },
         { path: 'registration', element: <RegisterPage /> },
         { path: 'report', element: <ReportPage /> },
+        { path: 'register', element: <RegisterEventPage /> },
       ]
     },
     {
